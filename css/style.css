@@ -9573,6 +9573,10 @@ button.swiper-pagination-bullet {
   /* Windows 8 IE 10 fix */
   -ms-perspective: 1200px; }
 
+body {
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased; }
+
 ul {
   margin: 0;
   padding: 0; }
@@ -9589,11 +9593,6 @@ a:hover {
 
 .mobile-show {
   display: none; }
-
-.font-title {
-  font-family: 'Multicolore';
-  font-size: 62px;
-  line-height: 72px; }
 
 .p-relative {
   position: relative; }
@@ -10948,6 +10947,8 @@ li.disc {
         transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
   .header__login img {
     margin-right: 8px; }
+  .header__login a:last-of-type {
+    padding-right: 15px; }
 
 .footer {
   background-color: #2E0E37;
@@ -11361,6 +11362,9 @@ li.disc {
 @media (min-width: 1400px) and (max-width: 1699.99px) {
   .bb_width-md {
     max-width: 1200px !important; } }
+@media (max-width: 1399.99px) and (min-width: 1200px) {
+  .header a {
+    font-size: 14px; } }
 @media (max-width: 1199px) {
   .pc-show {
     display: none !important; }

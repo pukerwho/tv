@@ -46,13 +46,6 @@
 				<div class="font-primary-book font-size-sm text-color-primary">
 					Stream to watch & manage your account when you’re on the go with <span class="font-primary-bold">BestBox mobile app</span> or any <span class="font-primary-bold">web browser!</span>
 				</div>
-				<div class="mt-3">
-					<div class="badge badge-bb">Action</div>
-					<div class="badge badge-bb">Comedy</div>
-					<div class="badge badge-bb">Romantic</div>
-					<div class="badge badge-bb">Thriller</div>
-					<div class="badge badge-bb">Drama</div>
-				</div>
 			</div>
 		</div>
 	</div>
