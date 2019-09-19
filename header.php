@@ -26,9 +26,11 @@
       <div class="row">
         <div class="col-md-12">
           <div class="header__content">
-            <div class="header__logo">
-              <img src="<?php echo carbon_get_theme_option('crb_logo') ?>" alt="">
-            </div>
+            <a href="<?php echo home_url(); ?>">
+              <div class="header__logo">
+                <img src="<?php echo carbon_get_theme_option('crb_logo') ?>" alt="">
+              </div>
+            </a>
             <div class="header__menu">
               <?php wp_nav_menu([
                 'theme_location' => 'head_menu',
