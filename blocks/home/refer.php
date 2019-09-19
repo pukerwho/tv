@@ -6,7 +6,7 @@
 					Refer your friends
 				</div>
 				<div class="text-justify text-color-primary font-size-md mb-5 pb-5 font-primary-book">
-					Sharing is caring! Refer your friends to BestBox subscription so they can enjoy watching too! You’ll be rewarded with Referral Bonus after they have successfully subscribed.
+					Sharing is caring! Refer your friends to BestBox subscription so they can enjoy watching too! You’ll be rewarded with <span class="font-primary-bold">Referral Bonus</span> after they have successfully subscribed.
 				</div>
 				<div class="referral_card text-center mt-5 w80 mx-auto">
 					<div class="referral_card_head font-size-xl font-title text-white">

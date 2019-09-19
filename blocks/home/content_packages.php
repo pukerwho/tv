@@ -10,7 +10,7 @@
 			9,000+ Live Channels
 		</div>
 		<div class="font-primary-book font-size-sm text-color-primary text-center mt-4 mb-5">
-			With Live Channels available from more than 60 countries, enjoy worldwide streaming outside your region without restrictions.
+			With <span class="font-primary-bold">Live Channels</span> available from more than <span class="font-primary-bold">60 countries</span>, enjoy worldwide streaming outside your region without restrictions.
 		</div>
 	</div>
 	<div class="container bb_width-md">
@@ -26,7 +26,7 @@
 					15,000+ Movies & TV Series
 				</div>
 				<div class="font-primary-book font-size-sm text-color-primary">
-					Binge watch your favourite Movies & TV Series without limits. Access all the latest content with BestBox subscription.
+					Binge watch your favourite Movies & TV Series without limits. Access all the <span class="font-primary-bold">latest content</span> with <span class="font-primary-bold">BestBox subscription.</span>
 				</div>
 				<div class="mt-3">
 					<div class="badge badge-bb">Action</div>
@@ -38,13 +38,13 @@
 			</div>
 			<div class="col-lg-6">
 				<div class="content_packages__icon my-3">
-					<img src="<?php bloginfo('template_url') ?>/img/movies.svg" alt="">
+					<img src="<?php bloginfo('template_url') ?>/img/watch-online.png" alt="">
 				</div>
 				<div class="font-size-lg text-color-dark font-primary mb-3">
-					15,000+ Movies & TV Series
+					Watch Instantly Online
 				</div>
 				<div class="font-primary-book font-size-sm text-color-primary">
-					Binge watch your favourite Movies & TV Series without limits. Access all the latest content with BestBox subscription.
+					Stream to watch & manage your account when you’re on the go with <span class="font-primary-bold">BestBox mobile app</span> or any <span class="font-primary-bold">web browser!</span>
 				</div>
 				<div class="mt-3">
 					<div class="badge badge-bb">Action</div>

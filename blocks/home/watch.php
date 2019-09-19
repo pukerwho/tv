@@ -7,12 +7,12 @@
 				</div>
 			</div>
 		</div>
-		<h1 class="font-title text-center">Watch without limits with 9,000+ HD channels</h1>
+		<h1 class="color-text-dark font-title font-size-xxxl text-center">Watch without limits with 9,000+ HD channels</h1>
 		<div class="mt-3 mb-5 font-size-md font-primary-book text-color-primary">
-			Access more than 9,000 worldwide channels from over 60 countries with HD quality, BestBox is the preferred choice of IPTV (Internet Protocol Television) streaming for everyone to watch videos online, without the need for a traditional satellite signal or cable connection.
+			Access more than <span class="font-primary-bold">9,000 worldwide channels</span> from <span class="font-primary-bold">over 60 countries</span> with HD quality, <span class="font-primary-bold">BestBox</span> is the preferred choice of IPTV (Internet Protocol Television) streaming for everyone to watch videos online, without the need for a traditional satellite signal or cable connection.
 		</div>
 		<div class="font-size-md font-primary-book text-color-primary">
-			Our dedicated servers provides 99.9% uptime with an incredibly fast connection at 1,000 Mbps connectivity. Watch all your favourite Sports and Live TV Channels without regional restrictions, and stream the latest Movies & TV Series instantly with your BestBox subscription.
+			Our dedicated servers provides <span class="font-primary-bold">99.9% uptime</span> with an incredibly fast connection at 1,000 Mbps connectivity. Watch all your favourite <span class="font-primary-bold">Sports and Live TV Channels</span> without regional restrictions, and stream the latest <span class="font-primary-bold">Movies & TV Series</span> instantly with your <span class="font-primary-bold">BestBox subscription.</span>
 		</div>
 		<div class="row mt-5">
 			<div class="col-md-4 my-5">

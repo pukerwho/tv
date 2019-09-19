@@ -14,6 +14,17 @@ $(window).scroll(function(){
   }
 })
 
+//Плавный скролл
+$(document).on('click', '.header nav a[href^="#"]', function (event) {
+  event.preventDefault();
+  var target = $($.attr(this, 'href'));
+  var targetScroll =  target.offset().top;
+  $('html, body').animate({
+      scrollTop: targetScroll
+  }, 500);
+});
+
+
 if ($('.welcome .slider').length > 0) {
   var headerHeight = $('.header').outerHeight();
   console.log(headerHeight);
