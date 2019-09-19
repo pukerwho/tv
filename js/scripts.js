@@ -18,7 +18,7 @@ $(window).scroll(function(){
 $(document).on('click', '.header nav a[href^="#"]', function (event) {
   event.preventDefault();
   var target = $($.attr(this, 'href'));
-  var targetScroll =  target.offset().top;
+  var targetScroll =  target.offset().top - 80;
   $('html, body').animate({
       scrollTop: targetScroll
   }, 500);
