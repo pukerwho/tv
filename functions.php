@@ -33,7 +33,8 @@ require_once get_template_directory() . '/inc/TGM/example.php';
 
 register_nav_menus( array(
     'head_menu' => 'Main menu',
-    'footer_menu' => 'Menu in footer',
+    'footer_one_menu' => 'First footer menu',
+    'footer_two_menu' => 'Second footer menu',
 ) );
 
 // Register sidebars

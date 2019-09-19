@@ -2,14 +2,14 @@
     <footer id="footer" class="footer pt-5">
     	<div class="container bb_width-md">
     		<div class="row pb-5">
-    			<div class="col-xl-3 col-md-4 col-sm-6">
+    			<div class="col-xl-3 col-md-4 col-sm-6 small_view">
     				<img src="<?php echo carbon_get_theme_option('crb_logo') ?>" alt="" class="pb-4 img-fluid">
     			</div>
     			<div class="col-xl-9">
     				<div class="row">
     					<div class="col-md-3 col-sm-6 col-6 xs-view">
     						<?php wp_nav_menu([
-                  'theme_location' => 'head_menu',
+                  'theme_location' => 'footer_one_menu',
                   'container' => 'nav',
                   'menu_id' => 'head_menu',
                 ]); ?>
@@ -20,17 +20,12 @@
                         Reseller/Agent
                       </a>  
                     </li>
-                    <li>
-                      <a href="<?php echo carbon_get_theme_option('crb_links_customer') ?>">
-                        Customer
-                      </a> 
-                    </li>  
                   </ul>
                 </div>
     					</div>
     					<div class="col-md-4 col-sm-6 col-6 xs-view">
     						<?php wp_nav_menu([
-                  'theme_location' => 'footer_menu',
+                  'theme_location' => 'footer_two_menu',
                   'container' => 'nav',
                   'menu_id' => 'head_menu',
                 ]); ?>
@@ -61,9 +56,9 @@
     		</div>
     		<div class="row pb-3">
     			<div class="col-12 small_view">
-    				<div class="text-center">
+    				<p class="text-center">
     					Copyright © BestBox / Monte International Trade (Tianjin) Co Ltd. All trademarks and copyrights belong to their respective owners.
-    				</div>
+    				</p>
     			</div>
     		</div>
     	</div>
