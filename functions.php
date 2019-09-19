@@ -32,7 +32,8 @@ require_once get_template_directory() . '/inc/TGM/example.php';
 
 
 register_nav_menus( array(
-    'head_menu' => 'Меню в шапке',
+    'head_menu' => 'Main menu',
+    'footer_menu' => 'Menu in footer',
 ) );
 
 // Register sidebars

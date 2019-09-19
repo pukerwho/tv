@@ -36,11 +36,11 @@
                 'menu_id' => 'head_menu',
               ]); ?>
               <div class="header__login">
-                <a href="#">
+                <a href="<?php echo carbon_get_theme_option('crb_links_resseler_agent') ?>">
                   <img src="<?php bloginfo('template_url') ?>/img/reseller.png" alt="">
                   Reseller/Agent
                 </a>
-                <a href="#">
+                <a href="<?php echo carbon_get_theme_option('crb_links_customer') ?>">
                   <img src="<?php bloginfo('template_url') ?>/img/my_acc.png" alt="">
                   Customer
                 </a>

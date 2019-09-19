@@ -34,7 +34,7 @@
 							Just plug & play with the TV Box for your big screen TV, includes pre-installed app, remote control & HDMI cable + worldwide delivery.
 						</div>
 						<div class="text-center mt-4">
-							<a target="_blank" href="#" class="btn-rounded btn-orange text-white">
+							<a target="_blank" href="<?php echo carbon_get_theme_option('crb_links_buy_now') ?>" class="btn-rounded btn-orange text-white">
 								BUY NOW
 							</a>
 						</div>
@@ -65,7 +65,7 @@
 							Just plug & play with the TV Box for your big screen TV, includes pre-installed app & <span class="text-color-purple font-primary">1 month subscription</span> + worldwide delivery.
 						</div>
 						<div class="text-center mt-4">
-							<a href="#" target="_blank" class="text-white btn-rounded btn-purple">
+							<a href="<?php echo carbon_get_theme_option('crb_links_buy_now') ?>" target="_blank" class="text-white btn-rounded btn-purple">
 								BUY NOW
 							</a>
 						</div>
@@ -95,7 +95,7 @@
 							Just plug & play with the TV Box for your big screen TV, includes pre-installed app & <span class="text-color-purple font-primary">3 months subscription</span> + worldwide delivery.
 						</div>
 						<div class="text-center mt-4">
-							<a href="#" target="_blank" class="text-white btn-rounded btn-purple">
+							<a href="<?php echo carbon_get_theme_option('crb_links_buy_now') ?>" target="_blank" class="text-white btn-rounded btn-purple">
 								BUY NOW
 							</a>
 						</div>
@@ -125,7 +125,7 @@
 							Just plug & play with the TV Box for your big screen TV, includes pre-installed app & <span class="text-color-purple font-primary">6 months subscription</span> + worldwide delivery.
 						</div>
 						<div class="text-center mt-4">
-							<a href="#" target="_blank" class="text-white btn-rounded btn-purple">
+							<a href="<?php echo carbon_get_theme_option('crb_links_buy_now') ?>" target="_blank" class="text-white btn-rounded btn-purple">
 								BUY NOW
 							</a>
 						</div>
@@ -155,7 +155,7 @@
 							Just plug & play with the TV Box for your big screen TV, includes pre-installed app & <span class="text-color-purple font-primary">12 months subscription</span> + worldwide delivery.
 						</div>
 						<div class="text-center mt-4">
-							<a href="#" target="_blank" class="text-white btn-rounded btn-purple">
+							<a href="<?php echo carbon_get_theme_option('crb_links_buy_now') ?>" target="_blank" class="text-white btn-rounded btn-purple">
 								BUY NOW
 							</a>
 						</div>

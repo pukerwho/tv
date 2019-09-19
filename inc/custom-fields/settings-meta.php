@@ -10,8 +10,17 @@ function crb_attach_theme_options() {
         Field::make( 'image', 'crb_logo', 'Logo' )->set_value_type( 'url'),
     ) )
     
-    ->add_tab( __('Блок О НАС'), array(
-        Field::make( 'rich_text', 'crb_aboutus_text', 'Текст О НАС' ),
+    ->add_tab( __('Contacts'), array(
+        Field::make( 'text', 'crb_email_sales', 'Email (Sales)' ),
+        Field::make( 'text', 'crb_email_logistic', 'Email (Logistic)' ),
+        Field::make( 'text', 'crb_email_resseler', 'Email (Resseler)' ),
+        Field::make( 'text', 'crb_email_support', 'Email (Support)' ),
+    ) )
+    ->add_tab( __('Links'), array(
+        Field::make( 'text', 'crb_links_resseler_agent', 'Reseller/Agent' ),
+        Field::make( 'text', 'crb_links_customer', 'Customer' ),
+        Field::make( 'text', 'crb_links_subscribe', 'Subscribe' ),
+        Field::make( 'text', 'crb_links_buy_now', 'Buy Now' ),
     ) );
 }
 

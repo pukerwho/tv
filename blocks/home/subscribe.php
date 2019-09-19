@@ -69,7 +69,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#" class="subscription_pack_btn subscription_pack_btn_purple text-center text-white d-block">
+				<a href="<?php echo carbon_get_theme_option('crb_links_subscribe') ?>" class="subscription_pack_btn subscription_pack_btn_purple text-center text-white d-block">
 					SUBSCRIBE
 				</a>
 			</div>
@@ -97,7 +97,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#" class="subscription_pack_btn subscription_pack_btn_purple text-center text-white d-block">
+				<a href="<?php echo carbon_get_theme_option('crb_links_subscribe') ?>" class="subscription_pack_btn subscription_pack_btn_purple text-center text-white d-block">
 					SUBSCRIBE
 				</a>
 			</div>
@@ -128,7 +128,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#" class="subscription_pack_btn subscription_pack_btn_purple text-center text-white d-block">
+				<a href="<?php echo carbon_get_theme_option('crb_links_subscribe') ?>" class="subscription_pack_btn subscription_pack_btn_purple text-center text-white d-block">
 					SUBSCRIBE
 				</a>
 			</div>
@@ -159,7 +159,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#" class="subscription_pack_btn subscription_pack_btn_purple text-center text-white d-block">
+				<a href="<?php echo carbon_get_theme_option('crb_links_subscribe') ?>" class="subscription_pack_btn subscription_pack_btn_purple text-center text-white d-block">
 					SUBSCRIBE
 				</a>
 			</div>

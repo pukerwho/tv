@@ -8,40 +8,51 @@
     			<div class="col-xl-9">
     				<div class="row">
     					<div class="col-md-3 col-sm-6 col-6 xs-view">
-    						<ul>
-    							<li><a href="#">Content Packages</a></li>
-    							<li><a href="#">TV Box</a></li>
-    							<li><a href="#">Subscribe Now</a></li>
-    							<li><a href="#">Reseller/Agent</a></li>
-    						</ul>
+    						<?php wp_nav_menu([
+                  'theme_location' => 'head_menu',
+                  'container' => 'nav',
+                  'menu_id' => 'head_menu',
+                ]); ?>
+                <div class="header__login">
+                  <ul>
+                    <li>
+                      <a href="<?php echo carbon_get_theme_option('crb_links_resseler_agent') ?>">
+                        Reseller/Agent
+                      </a>  
+                    </li>
+                    <li>
+                      <a href="<?php echo carbon_get_theme_option('crb_links_customer') ?>">
+                        Customer
+                      </a> 
+                    </li>  
+                  </ul>
+                </div>
     					</div>
     					<div class="col-md-4 col-sm-6 col-6 xs-view">
-    						<ul>
-    							<li><a href="#">Refer your friend</a></li>
-    							<li><a href="#">Customer</a></li>
-    							<li><a href="#">Terms Of Use</a></li>
-    							<li><a href="#">Purchasing Terms</a></li>
-    							<li><a href="#">Privacy Policy</a></li>
-    						</ul>
+    						<?php wp_nav_menu([
+                  'theme_location' => 'footer_menu',
+                  'container' => 'nav',
+                  'menu_id' => 'head_menu',
+                ]); ?>
     					</div>
     					<div class="col-md-5 col-sm-12 col-12 xs-view">
     						<h5>Contact Us</h5>
     						<ul>
     							<li>
     								<span>Sales: &nbsp;</span>
-    								<a href="mailto:email@email.com">email@email.com</a>
+    								<a href="mailto:<?php echo carbon_get_theme_option('crb_email_sales') ?>"><?php echo carbon_get_theme_option('crb_email_sales') ?></a>
     							</li>
     							<li>
     								<span>Logistic: &nbsp;</span>
-    								<a href="mailto:email@email.com">email@email.com</a>
+    								<a href="mailto:<?php echo carbon_get_theme_option('crb_email_logistic') ?>"><?php echo carbon_get_theme_option('crb_email_logistic') ?></a>
     							</li>
     							<li>
     								<span>Reseller or Agent: &nbsp;</span>
-    								<a href="mailto:email@email.com">email@email.com</a>
+    								<a href="mailto:<?php echo carbon_get_theme_option('crb_email_resseler') ?>"><?php echo carbon_get_theme_option('crb_email_resseler') ?></a>
     							</li>
     							<li>
     								<span>Support: &nbsp;</span>
-    								<a href="mailto:email@email.com">email@email.com</a>
+    								<a href="mailto:<?php echo carbon_get_theme_option('crb_email_support') ?>"><?php echo carbon_get_theme_option('crb_email_support') ?></a>
     							</li>
     						</ul>
     					</div>
